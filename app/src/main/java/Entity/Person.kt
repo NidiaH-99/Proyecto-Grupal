@@ -20,7 +20,9 @@ class Person {
     private var address: String=""
     private var latitude: Int=0
     private var longitude: Int=0
-    private  var photo: Bitmap?
+    private  var photo: Bitmap? = null
+
+    constructor()
 
     constructor(id: String, name: String, fLastname: String, sLastname: String, phone: Int, email: String,
         birthday: Date, province: Province, state: String, district: String, address: String, latitude: Int, longitude: Int,
