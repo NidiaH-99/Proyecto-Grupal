@@ -48,26 +48,6 @@ class Person {
         get() = this.id
         set(value)  { this.id = value }
 
-        var Name: String
-        get() = this.name
-        set(value)  { this.name = value }
-
-        var FLastName: String
-        get() = this.fLastName
-        set(value)  { this.fLastName = value }
-
-        var SLastName: String
-        get() = this.sLastName
-        set(value)  { this.sLastName = value }
-
-        var Phone: Int
-        get() = this.phone
-        set(value)  { this.phone = value }
-
-        var Email: String
-        get() = this.email
-        set(value)  { this.email = value }
-
         var Birthday: Date
         get() = this.birthday
         set(value)  { this.birthday = value }
