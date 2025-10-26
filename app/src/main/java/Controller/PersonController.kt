@@ -57,4 +57,16 @@ class PersonController {
             throw Exception(contex.getString(R.string.ErrorMsgGetById))
         }
     }
+
+    fun removePerson(id: String){
+        try {
+            val result = dataManager.getById(id)
+            if (result == null){
+                throw Exception(contex.getString(R.string.MsgDataNoFound))
+            }
+        }catch (e: Exception){
+            throw Exception(contex
+                .getString(R.string.ErrorMsgRemove))
+        }
+    }
 }
