@@ -24,7 +24,7 @@
                 android:text="@string/TextID" />
 
             <EditText
-                android:id="@+id/TxtID_Person"
+                android:id="@+id/TxtId_Person"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -211,7 +211,7 @@
             <EditText
                 android:id="@+id/TxtAddress_Person"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:ems="10"
                 android:inputType="text" />
         </TableRow>
