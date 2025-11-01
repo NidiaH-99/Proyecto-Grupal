@@ -18,4 +18,12 @@
     <string name="TextState">Canton</string>
     <string name="TextDistrict">Distrito</string>
     <string name="TextAddress">Direccion</string>
+    <string name="TextYes">Si</string>
+    <string name="TextNo">No</string>
+    <string name="TextTitleDialogQuestion">Pregunta</string>
+    <string name="MsgDeleteSucess">La informacion se elimino con exito</string>
+    <string name="MsgSaveSucess">La informacion se guardo con exito</string>
+    <string name="TextDeleteQuestion">Desea eliminar la informacion?</string>
+    <string name="TextSaveQuestion">Desea guardar la informacion?</string>
+    <string name="MsgDuplicateDate">El dato es duplicado</string>
 </resources>

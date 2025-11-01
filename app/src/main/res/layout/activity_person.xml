@@ -30,6 +30,12 @@
                 android:ems="10"
                 android:inputType="text" />
 
+            <ImageButton
+                android:id="@+id/btnSearchId_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_search" />
+
         </TableRow>
 
         <TableRow
@@ -99,12 +105,24 @@
                 android:layout_height="wrap_content"
                 android:text="@string/TextBirthdate" />
 
-            <EditText
-                android:id="@+id/TxtBirthdate_Person"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="text" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/lbBirthday_person"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp" />
+
+                <ImageButton
+                    android:id="@+id/btnSelectDate_person"
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_margin="15dp"
+                    app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+            </TableRow>
+
         </TableRow>
 
         <TableRow
@@ -216,15 +234,5 @@
                 android:inputType="text" />
         </TableRow>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-
-            <Button
-                android:id="@+id/btnSave_person"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Guardar" />
-        </TableRow>
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

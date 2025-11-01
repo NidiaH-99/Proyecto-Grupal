@@ -19,4 +19,12 @@
     <string name="TextState">State</string>
     <string name="TextDistrict">District</string>
     <string name="TextAddress">Address</string>
+    <string name="TextYes">Yes</string>
+    <string name="TextNo">No</string>
+    <string name="TextTitleDialogQuestion">Question</string>
+    <string name="MsgDeleteSucess">The Information was deleted succesfully</string>
+    <string name="MsgSaveSucess">The informathion was saved succesfully</string>
+    <string name="TextDeleteQuestion">Are you sure to delete the information?</string>
+    <string name="TextSaveQuestion">Are you sure to saved the information?</string>
+    <string name="MsgDuplicateDate">The information is duplicated</string>
 </resources>
